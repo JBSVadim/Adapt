@@ -1,0 +1,125 @@
+@import url("./bootstrap-grid.css");
+@import url("./fonts.css");
+
+
+* {
+  --main-font: 1.2rem;
+  --main-pad: 10px 0;
+  --text-format: "Raleway"
+}
+
+body {
+  font-family: rele
+}
+
+
+.NavHead {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: lightgreen;
+  color: white;
+  padding: var(--main-pad);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  font-weight: bold;  
+}
+
+.logo {
+  width: 120px;
+}
+
+.navList {
+font-size: 0;
+padding: 10px 0;
+}
+
+.listItem {
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: var(--text-format);
+  font-size: initial;
+}
+
+main {
+  min-height: 100vh;
+}
+
+@media screen and (min-width:576px) {
+  .push {
+    padding-top: 140px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .push {
+    padding-top: 130px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .push {
+    padding-top: 110px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .push {
+    padding-top: 105px;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .push {
+    padding-top: 100px;
+  }
+}
+
+.align {
+  text-align: center;
+}
+
+.title {
+  font-family: var(--text-format);
+  font-size: var(--main-font);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 0.6rem;
+}
+
+.icon {
+  padding-bottom: 1.5rem;
+}
+
+.text {
+  color: lightslategray;
+  padding: var(--main-pad);
+}
+
+.foot {
+  margin-top: 20px;
+  background-color: khaki;
+  text-align: center
+}
+
+.footTitle {
+font-size: 2rem;
+font-weight: bold;
+padding: 10px 0;
+}
+
+.footText {
+  font-family: var(--text-format);
+  font-size: var(--main-font);
+  padding: var(--main-pad);
+}
