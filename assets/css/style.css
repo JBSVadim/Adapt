@@ -111,7 +111,6 @@ padding: 10px 0;
 .text {
   color: lightslategray;
   padding: var(--main-pad);
-  white-space: pre-wrap;
 }
 
 .foot {
