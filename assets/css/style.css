@@ -3,6 +3,7 @@
 
 
 * {
+  box-sizing: border-box;
   --main-font: 1.2rem;
   --main-pad: 10px 0;
   --text-format: "Raleway"
@@ -48,14 +49,18 @@ padding: 10px 0;
   font-size: initial;
 }
 
-main {
-  min-height: 100vh;
-}
+
 
 @media screen and (max-width:576px) {
   .push {
     padding-top: 140px;
   }
+}
+@media screen and (min-width:577px) {
+    .push {
+      padding-top: 140px;
+    }
+  
 }
 
 @media screen and (min-width:768px) {
@@ -97,11 +102,16 @@ main {
 
 .icon {
   padding-bottom: 1.5rem;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 .text {
   color: lightslategray;
   padding: var(--main-pad);
+  white-space: pre-wrap;
 }
 
 .foot {
