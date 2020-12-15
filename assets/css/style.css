@@ -105,8 +105,8 @@ main {
 
 .wrapper {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
   }
 
 .icon {
